@@ -500,6 +500,7 @@ footer{
     row-gap: 30px;
     background: #F8F8F8;
     padding-block: 40px 60px;
+    margin-top: 10px;
 }
 .top_footer p{
     font-size: 25px;
