@@ -671,3 +671,43 @@ footer{
     height: auto;
   }
 }
+
+
+@media screen and (max-width: 768px) {
+  .featured_box {
+    flex-direction: column;
+    height: auto;
+    min-height: auto;
+  }
+
+  .featured_text,
+  .featured_image {
+    width: 100%;
+    text-align: center; /* center text if you want */
+  }
+
+  .featured_text {
+    padding-left: 0; /* remove left padding on mobile */
+    padding: 20px;   /* add general padding */
+  }
+
+  .featured_text_info {
+    font-size: 18px; /* scale text down for mobile */
+  }
+
+  .featured_text_card span {
+    font-size: 24px;
+  }
+
+  .image {
+    width: 250px;
+    height: 250px;
+  }
+
+  .image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+}
+
