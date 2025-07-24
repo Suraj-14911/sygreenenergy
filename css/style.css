@@ -197,7 +197,7 @@ nav{
 }
 .featured_text_info{
     font-size: 30px;
-    /* margin-bottom: 30px; */
+    margin-bottom: 30px;
     color: var(--text-color-second);
 }
 .featured_text_btn{
