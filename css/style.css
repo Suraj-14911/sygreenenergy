@@ -656,7 +656,7 @@ footer{
   border-radius: 15px;
   padding: 30px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 10px auto;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
 }
 
