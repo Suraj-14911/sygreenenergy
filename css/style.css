@@ -629,49 +629,95 @@ footer{
 
 /* services */
 
+/* ----------------- PROJECTS SECTION ----------------- */
+/* ----------------- PROJECTS SECTION: IMAGES + VIDEOS ----------------- */
 .services-section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 16px;
+  padding: 60px 20px;
+  text-align: center;
 }
 
-.service-project {
-  margin-bottom: 60px;
+.services-section .top_header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 
-.project-title {
-  font-size: 28px;
-  margin-bottom: 20px;
-  color: var(--primary);
+.services-section .project-title {
+  font-size: 1.4rem;
+  margin: 10px 0 20px;
+  color: rgb(8, 210, 18);
 }
 
-.project-images {
+.project-media {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  justify-content: center;
+  gap: 20px;
 }
 
-.project-images img {
-  width: calc(33.333% - 10.66px); /* 3 in a row, minus gap */
-  border-radius: 8px;
+.project-box {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Images and Videos: same style */
+.project-media img,
+.project-media video {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
   object-fit: cover;
-  height: 200px; /* optional: consistent image height */
+  aspect-ratio: 16/9; /* maintain video/image ratio */
+  max-height: 160px; /* about 50% of typical image height */
+}
+
+.project-media img:hover,
+.project-media video:hover {
+  transform: scale(1.5);
+}
+
+.project-media video {
+  outline: none;
 }
 
 @media (max-width: 768px) {
-  .project-images img {
-    width: calc(50% - 8px); /* 2 in a row on tablet */
-    height: 180px;
+  .project-media {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .project-media img,
+  .project-media video {
+    max-width: 90%;
+    max-height: 180px; /* slightly taller on mobile for better view */
+  }
+
+  .services-section .top_header h1 {
+    font-size: 2rem;
+  }
+
+  .services-section .project-title {
+    font-size: 1.5rem;
   }
 }
 
 @media (max-width: 480px) {
-  .project-images img {
-    width: 100%; /* 1 per row on mobile */
-    height: auto;
+  .services-section {
+    padding: 40px 15px;
+  }
+
+  .project-media {
+    gap: 20px;
   }
 }
 
+/* services */
 
 @media screen and (max-width: 768px) {
   .featured_box {
@@ -710,4 +756,6 @@ footer{
     object-fit: cover;
   }
 }
+
+
 
