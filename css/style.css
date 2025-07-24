@@ -654,14 +654,14 @@ footer{
   gap: 20px;
 }
 
-.project-box {
+/* .project-box {
   background: #ffffff;
   border-radius: 15px;
   padding: 30px;
   max-width: 1200px;
   margin: 0 auto;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* Images and Videos: same style */
 .project-media img,
