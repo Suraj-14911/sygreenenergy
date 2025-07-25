@@ -654,7 +654,7 @@ footer{
 .project-box {
   background: #ffffff;
   border-radius: 15px;
-  padding: 30px;
+  padding: 10px;
   max-width: 1200px;
   margin: 10px auto;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
@@ -754,5 +754,6 @@ footer{
   }
 }
 
+/* testimonial secion  */
 
 
