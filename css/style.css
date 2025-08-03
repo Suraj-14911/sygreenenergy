@@ -910,3 +910,43 @@ footer {
 }
 
 /* testimonial section end  */
+
+
+/* small screen fix */
+
+@media only screen and (max-width: 540px) {
+    /* Remove extra padding/margin from wrapper containers */
+    .wrapper,
+    .services-section,
+    .gallery-grid {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .project-box,
+    .about_info,
+    .contact_info {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    .gallery-item {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    /* Prevent section from adding extra side padding */
+    section,
+    .section {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+/* end  */
