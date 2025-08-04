@@ -651,6 +651,8 @@ footer {
         flex-direction: column;
         justify-content: center;
         height: 100vh;
+
+        
     }
 
     .featured_text {
@@ -886,6 +888,7 @@ footer {
     text-align: center;
     font-size: 25px;
     color: #777;
+   
 }
 
 .letter-info h3 {
