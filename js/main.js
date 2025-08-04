@@ -119,13 +119,4 @@ const sr = ScrollReveal({
 
 
 
-// Initialize Swiper
-
-
-
-
-
-
-
-  
 
