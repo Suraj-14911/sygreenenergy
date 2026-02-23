@@ -1,424 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SY Green Energy | CBG, Bio-Gas, Hydrogen & Nitrogen Plants India</title>
-    <meta name="description"
-        content="SY Green Energy is a leading project developer and manufacturer of CBG plants, bio-gas plants, hydrogen, oxygen, and nitrogen generation plants in India.">
-
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" href="images/logo.jpeg" type="image/x-icon" />
-
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-</head>
-
-<body>
-    <div class="container">
-        <nav id="header">
-            <div class="nav_logo">
-                <p class="nav_name">sygreenenergy</p>
-                <!-- <span>.</span> -->
-            </div>
-            <div class="nav_menu" id="myNavMenu">
-                <ul class="nav_menu_list">
-                    <li class="nav_list">
-                        <a href="#home" class="nav_link ">Home</a>
-                        <div class="circle"></div>
-                    </li>
-                    <li class="nav_list">
-                        <a href="#about" class="nav_link">About</a>
-                        <div class="circle"></div>
-                    </li>
-                    <li class="nav_list">
-                        <a href="#testimonail" class="nav_link">Testimonial</a>
-                        <div class="circle"></div>
-                    </li>
-                    <li class="nav_list">
-                        <a href="#projects" class="nav_link">Projects</a>
-                        <div class="circle"></div>
-                    </li>
-                    <li class="nav_list">
-                        <a href="#contact" class="nav_link">Contact Us</a>
-                        <div class="circle"></div>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="nav_menu_btn">
-                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
-            </div>
+    <title>SY Green Energy | CBG, Bio-Gas, Hydrogen &amp; Nitrogen Plants India</title>
+    <meta
+      name="description"
+      content="SY Green Energy is a manufacturer and project developer of CBG, bio-gas, hydrogen, oxygen and nitrogen gas plants, offering turnkey green energy and waste-to-energy solutions."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="sg-header">
+      <div class="sg-container sg-header-inner">
+        <a href="index.html" class="sg-logo">
+          <img src="images/logo.png" alt="SY Green Energy" class="sg-logo-img" onerror="this.style.display='none'; var t=this.parentElement.querySelectorAll('.sg-logo-mark,.sg-logo-text'); for(var i=0;i<t.length;i++) t[i].style.display='';" onload="var m=this.parentElement.querySelector('.sg-logo-mark'); if(m) m.style.display='none';">
+          <span class="sg-logo-mark">S</span>
+          <span class="sg-logo-text">SY Green<span>Energy</span></span>
+        </a>
+        <button class="sg-nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="sg-nav" id="mainNav">
+          <a href="index.html" class="sg-nav-active">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="about.html">About</a>
+          <a href="careers.html">Careers</a>
+          <a href="contact.html" class="sg-btn sg-btn--small">Get a Quote</a>
         </nav>
-        <!-- ----------MAIN--------- -->
-        <main class="wrapper">
-            <!-- ---------- FEATURED----------- -->
-            <section class="featured_box" id="home">
-                <div class="featured_text">
-                    <!-- <div class="featured_text_card"><span>Suraj Yadav
-                        </span></div> -->
-                    <div class="featured_name" ,>
-                        <p> We Are <span style="color: rgb(8, 210, 18);" class="#">MANUFACTURER</span></p>
-                    </div>
-                    <div class="featured_text_info">
-                        <p>& Poject Developer of <b> <span style="color: rgb(8, 210, 18); ">Green Energy</span></b></p>
-                    </div>
-                    <div class="featured_text_btn">
-                        <a href="BIO CNG PROPOSAL.pdf" download="BIO_CNG_PROPOSAL" class="btn download-btn">
-                            Bio CNG <i class="uil uil-file-alt"></i>
-                        </a>
-
-                        <a href="NITROGEN GAS PLANT.pdf" download="NITROGEN_GAS_PLANT" class="btn download-btn">
-                            Nitrogen Gas <i class="uil uil-file-alt"></i>
-                        </a>
-
-                        <a href="Oxygen Catalogue.pdf" download="OXYGEN_CATALOG" class="btn download-btn">
-                            Oxygen <i class="uil uil-file-alt"></i>
-                        </a>
-
-                        <a href="SY HYDROGEN CATALOGUE.pdf" download="SY_HYDROGEN_CATALOGUE" class="btn download-btn">
-                            Hydrogen <i class="uil uil-file-alt"></i>
-                        </a>
-
-
-                    </div>
-                    <div class="social_icons">
-                        <div class="icon"><a href="https://www.instagram.com/sy_green_energy/"><i
-                                    class="uil uil-instagram"></i></a></div>
-                        <div class="icon"><a href="https://www.linkedin.com/company/sy-green-energy/"><i
-                                    class="uil uil-linkedin-alt"></i></a></div>
-                        <div class="icon"><a href="https://youtube.com/channel/UCwFaSj6yY-ZOLRhtTFRa6vQ"
-                                target="_blank">
-                                <i class="uil uil-youtube"></i>
-                            </a></div>
-                    </div>
-                </div>
-                <div class="featured_image">
-                    <div class="image">
-                        <img src="images/logo.jpeg" alt="avatar" />
-
-
-                    </div>
-
-
-                </div>
-
-
-            </section>
-            <!-- ------------ABOUT------------- -->
-            <section class="section" id="about">
-                <div class="top_header">
-                    <h1>About Us </h1>
-                    <span>SY Green Energy: Green Hydrogen, Bio-Gas & CBG Solutions</span>
-                </div>
-                <div class="gallery-grid">
-                    <div class="gallery-item">
-                        <img src="images/DIPP211711_SY_GREEN_ENERGY_PRIVATE_LIMITED_RECOGNITION_220695748680318959_page-0001.jpg"
-                            alt="Letter 3">
-                        <div class="letter-info">
-                            <a href="images/DIPP211711_SY_GREEN_ENERGY_PRIVATE_LIMITED_RECOGNITION_220695748680318959.pdf"
-                                class="btn download-btn" download>Download Certificate</a>
-                        </div>
-                        <div class="letter-info">
-                            <h3>
-                                <p><b> <span style="color: rgb(8, 210, 18); ">SY GREEN ENERGY.</span></b> established in
-                                    the
-                                    year of 2022, is the leading service provider and consultant for an exclusive range
-                                    of
-                                    domestic and commercial Bio-gas plants, dairy farm solutions, Oxygen generation
-                                    plant,
-                                    Nitrogen generation plant, solar plants, waste to energy solutions, and organic
-                                    fertilizers. Our company was founded on the principle of delivering high quality and
-                                    "Nature Friendly" solutions to our clients which in terns benefits our clients and
-                                    mother nature.
-                                    <br>
-                                    Our company has sufficient skilled and engineering professionals who provide
-                                    infrastructural facilities to undertake all domestic, industrial, and commercial
-                                    projects related to renewable energy. Our company renders consultancy services for
-                                    the
-                                    preparation of projects, takes up feasibility studies, and site visits and carries
-                                    our
-                                    project implementation and awareness program on waste management. Our company
-                                    provides a
-                                    one-step solution for all waste-to-energy projects.<br>
-                                    Our people are highly qualified, experienced, and creative professionals. We believe
-                                    that the results we achieve are driven by the insight of our staff, coupled with our
-                                    robust methods. We are adept at analyzing the client's needs, developing targeted,
-                                    high-impact organizational interventions, and deploying solutions to close the
-                                    strategy-execution gap, producing measurable bottom line results.
-                                </p>
-                            </h3>
-                        </div>
-
-
-                    </div>
-                </div>
-            </section>
-
-            <!-- about end -->
-
-            <!-- testimonail start -->
-            <section class="section" id="testimonail">
-                <div class="top_header">
-                    <h1>Client Letters & Endorsements</h1>
-                    <span>Official correspondence and approval letters from our partners and clients.</span>
-                </div>
-                <iframe src="responsive-card-slider/ind.html" width="100%" height="600"
-                    style="border: none;"></iframe>
-            </section>
-
-            <!-- testmonial end here -->
-
-
-
-
-
-
-
-            <!-- Services -->
-            <section class="services-section" id="projects">
-                <div class="top_header">
-                    <h1>Projects</h1>
-                    <h1>SY Green Energy: Green Hydrogen, Bio-Gas & CBG Solutions</h1>
-                </div>
-
-                <!-- Project 1 completed -->
-                <div class="service-project">
-                    <div class="project-box">
-                        <h2 class="project-title">Project: Buland Bio Gas Compressed BioGas (CBG) </h2>
-                        <h3 class="project-title">Location: Buland Sahar </h3>
-                        <h3 class="project-title">Status: Completed </h3>
-                        <iframe src="project1/index.html" width="100%" height="350" style="border: none;"></iframe>
-
-                    </div>
-                </div>
-
-                <!-- project1 end -->
-                <!-- project 2 completed -->
-                <!-- <div class="service-project">
-                    <div class="project-box">
-                        <h2 class="project-title">Project: 5.4 TPD Compressed BioGas (CBG) </h2>
-                        <h3 class="project-title">Location: Vadodara Gujarat </h3>
-                        <h3 class="project-title">Status: Completed </h3>
-
-                        <iframe src="project2/index.html" width="100%" height="350" style="border: none;"></iframe>
-
-                    </div>
-                </div> -->
-
-                <!-- project2 end  -->
-                  <!-- project 8 start completed 3  -->
-                   <div class="service-project">
-                    <div class="project-box">
-                        <h2 class="project-title">Project: 2.5 TPD CBG Compressed BioGas (CBG) </h2>
-                        <h3 class="project-title">Location: Kanpur, UP </h3>
-                        <h3 class="project-title">Status: Completed </h3>
-
-                        <iframe src="project8complted/index.html" width="100%" height="400" style="border: none;"></iframe>
-
-                    </div>
-                </div>
-                  
-                 <!-- project 8 end completed 3  -->
-
-
-                <!-- Project 3 gujarat -->
-                <div class="service-project">
-                    <div class="project-box">
-                        <h2 class="project-title">Project: 3 TPD Compressed BioGas (CBG)</h2>
-                        <h3 class="project-title">Location: Gujarat </h3>
-                        <h3 class="project-title">Status: Under Construction</h3>
-
-                        <iframe src="project3/index.html" width="100%" height="350" style="border: none;"></iframe>
-
-                    </div>
-                </div>
-
-                <!-- project3 end -->
-                <!-- project4 -->
-
-                <div class="service-project">
-                    <div class="project-box">
-                        <h2 class="project-title">Project:6 TPD Compressed BioGas (CBG) </h2>
-                        <h3 class="project-title">Location: Saharanpur, UP </h3>
-                        <h3 class="project-title">Status: Under Construction </h3>
-
-                        <iframe src="project4/index.html" width="100%" height="350" style="border: none;"></iframe>
-
-                    </div>
-                </div>
-
-                <!-- project 4 end -->
-                <!-- project5  -->
-                <div class="service-project">
-                    <div class="project-box">
-                        <h2 class="project-title">Project: 12 TPD Compressed BioGas (CBG) </h2>
-                        <h3 class="project-title">Location: Agra UP </h3>
-                        <h3 class="project-title">Status: Under Construction </h3>
-                        <iframe src="project5/index.html" width="100%" height="350" style="border: none;"></iframe>
-
-
-                    </div>
-                </div>
-                <!-- project5 end  -->
-                <!-- project 6 start  -->
-                <div class="service-project">
-                    <div class="project-box">
-                        <h2 class="project-title">Project: 5 TPD CBG PLANT , Compressed BioGas (CBG) </h2>
-                        <h3 class="project-title">Location: SURAT, GUJARAT </h3>
-                        <h3 class="project-title">Status: Under Construction </h3>
-
-                        <iframe src="project6/index.html" width="100%" height="350" style="border: none;"></iframe>
-
-                    </div>
-                </div>
-                <!-- project 6 end here  -->
-
-                <!-- project 7 start -->
-
-                <div class="service-project">
-                    <div class="project-box">
-                        <h2 class="project-title">Project: 6 TPD Compressed BioGas (CBG) </h2>
-                        <h3 class="project-title">Location: Meerut , UP </h3>
-                        <h3 class="project-title">Status: Under Construction </h3>
-                        <iframe src="project7/index.html" width="100%" height="350" style="border: none;"></iframe>
-
-
-                    </div>
-                </div>
-
-                <!-- project 7 end  -->
-                
-            </section>
-
-            <!-- serices -->
-            <!-- contect us -->
-
-
-            <!-- about Owner  -->
-
-            <section class="featured_box">
-                <div class="featured_text">
-
-                    <div class="featured_text_info">
-                        <p>Suraj Yadav <br>Founder & CEO<br>
-                            A Mechanical Engineer with 6+ years of experience in CBG Plant, Green Hydrogen Plant,
-                            Nitrogen Generation Plant, Oxygen Generation Plant, VPSA Plant, BIO-CNG plant & Domestic
-                            bio-gas plant Manufacturing and Commissioning of the plant. <span>Green Energy</span></b>
-                        </p>
-                    </div>
-
-                    <div class="social_icons">
-                        <div class="icon"><a href="https://www.instagram.com/sy_green_energy/"><i
-                                    class="uil uil-instagram"></i></a></div>
-                        <div class="icon"><a href="https://www.linkedin.com/company/sy-green-energy/"><i
-                                    class="uil uil-linkedin-alt"></i></a></div>
-                    </div>
-                </div>
-                <div class="featured_image">
-                    <div class="image">
-                        <img src="images/syow.jpeg" alt="Suraj Yadav - Founder of SY Green Energy">
-
-                    </div>
-
-
-                </div>
-
-
-            </section>
-
-            <!-- get in touch -->
-             <section class="section" id="contact">
-                <div class="top_header">
-
-                    <h1>Get in touch</h1>
-
-                    <span>Do you have a project in your mind, Contact Us here</span>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <div class="contact_info">
-                            <h2>Find Us<i class="uil uil-corner-right-down"></i></i></h2>
-                            <p><i class="#"></i>Address1:<br>A/42, Vrundavan park, Ring Road, Odhav, Ahmedabad - 382415
-                                <br>Address2: <br>0638, Badheya chowk, Peppeganj, Gorakhpur - 273165
-                            </p>
-                            <p><i class="uil uil-envelope"></i>Email: info@sygreenenergy.com</p>
-                            <p><i class="uil uil-phone"></i>Tel: +91 9724665591</p>
-                            <!-- <p><i class="uil uil-phone"></i>Tel: +91 972</p> -->
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="form_control">
-                            <div class="form_inputs">
-                                <input type="text" class="input_field" id="Name" placeholder="Name">
-                                <input type="text" class="input_field" id="Email" placeholder="Email">
-                            </div>
-                            <div class="text_area">
-                                <textarea placeholder="Message" id="Message"></textarea>
-                            </div>
-                            <div class="form_button">
-                                <button class="btn" id="submit_btn">Send<i class="uil uil-message"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- get in touch -->
-
-        </main>
-        <!-- footer -->
-        <footer>
-            <div class="top_footer">
-                <p>sygreenenergy</p>
+      </div>
+    </header>
+
+    <main>
+      <!-- Green Energy Background Pattern -->
+      <div class="sg-energy-pattern"></div>
+      
+      <!-- Hero Section -->
+      <section class="sg-hero">
+        <div class="sg-container sg-hero-inner">
+          <div class="sg-hero-content">
+            <p class="sg-pill">CBG • Bio‑Gas • Hydrogen • Nitrogen</p>
+            <h1>We Are Manufacturer &amp; Project Developer of Green Energy</h1>
+            <p class="sg-hero-subtitle">
+              SY Green Energy is a leader in pioneering waste management systems, at the forefront of
+              developing and implementing innovative waste‑to‑energy solutions for industrial and
+              commercial projects across India.
+            </p>
+            <div class="sg-hero-actions">
+              <a href="#solutions" class="sg-btn">Explore Our Solutions</a>
+              <a href="projects.html" class="sg-link-button">View Our Projects</a>
+              <a href="contact.html" class="sg-link-button">Get Started Today</a>
             </div>
-            <div class="middle_footer">
-                <ul class="footer_menu">
-                    <li class="footer_menu_list">
-                        <a href="#home">Home</a>
-                    </li>
-                    <li class="footer_menu_list">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="footer_menu_list">
-                        <a href="#contact">Contact Us</a>
-                    </li>
-                </ul>
+            <div class="sg-hero-metas">
+              <div>
+                <span class="sg-meta-label">Domain experience</span>
+                <span class="sg-meta-value">6+ years</span>
+              </div>
+              <div>
+                <span class="sg-meta-label">CBG capacity</span>
+                <span class="sg-meta-value">30+ TPD</span>
+              </div>
+              <div>
+                <span class="sg-meta-label">Projects delivered</span>
+                <span class="sg-meta-value">7+ plants</span>
+              </div>
             </div>
-            <div class="footer_social_icons">
-                <div class="icon"><a href="https://www.instagram.com/sy_green_energy/"><i
-                            class="uil uil-instagram"></i></a></div>
-                <div class="icon"><a href="https://www.linkedin.com/company/sy-green-energy/"><i
-                            class="uil uil-linkedin-alt"></i></a></div>
-                <!-- <div class="icon"><a href="https://github.com/Piiush04"><i class="uil uil-github-alt"></i></a></div> -->
+          </div>
+          <div class="sg-hero-visual">
+            <div class="sg-hero-card">
+              <div class="sg-hero-card-header">
+                <span>Key solution catalogues</span>
+                <span class="sg-status-pill">Download PDF</span>
+              </div>
+              <div class="sg-hero-badges" style="margin: 0.5rem 0 0.9rem;">
+                <a href="https://sygreenenergy.com/BIO%20CNG%20PROPOSAL.pdf" target="_blank" rel="noreferrer">
+                  Bio CNG
+                </a>
+                <a href="https://sygreenenergy.com/NITROGEN%20GAS%20PLANT.pdf" target="_blank" rel="noreferrer">
+                  Nitrogen Gas
+                </a>
+                <a href="https://sygreenenergy.com/Oxygen%20Catalogue.pdf" target="_blank" rel="noreferrer">
+                  Oxygen
+                </a>
+                <a href="https://sygreenenergy.com/SY%20HYDROGEN%20CATALOGUE.pdf" target="_blank" rel="noreferrer">
+                  Hydrogen
+                </a>
+              </div>
+              <div class="sg-hero-chart">
+                <div class="sg-chart-bar sg-chart-bar--high"></div>
+                <div class="sg-chart-bar sg-chart-bar--medium"></div>
+                <div class="sg-chart-bar sg-chart-bar--low"></div>
+                <div class="sg-chart-bar sg-chart-bar--medium"></div>
+                <div class="sg-chart-bar sg-chart-bar--high"></div>
+              </div>
+              <div class="sg-hero-metrics-row">
+                <div>
+                  <span class="sg-meta-label">Plants covered</span>
+                  <span class="sg-meta-value">CBG, H₂, O₂, N₂</span>
+                </div>
+                <div>
+                  <span class="sg-meta-label">Services</span>
+                  <span class="sg-meta-value">Design to commissioning</span>
+                </div>
+              </div>
+              <div class="sg-hero-badges">
+                <span>Waste‑to‑energy</span>
+                <span>Turnkey EPC</span>
+                <span>Operations &amp; maintenance</span>
+              </div>
             </div>
-            <div class="bottom_footer">
-                <p>Copyright &copy;2025 <a href="#home" style="text-decoration: none;">sygreenenergy</a> - All rights
-                    reserved</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Solutions Section -->
+      <section class="sg-section" id="solutions">
+        <div class="sg-container">
+          <div class="sg-section-heading">
+            <p class="sg-pill sg-pill--soft">Solutions</p>
+            <h2>Green Hydrogen, Bio‑Gas &amp; CBG solutions.</h2>
+            <p>
+              SY Green Energy offers consultancy, plant manufacturing, and turnkey execution for
+              CBG, bio‑gas, hydrogen, oxygen, nitrogen and waste‑to‑energy projects.
+            </p>
+          </div>
+          <div class="sg-grid sg-grid--3">
+            <article class="sg-card">
+              <div class="sg-card-icon">☀️</div>
+              <h3>CBG &amp; Bio‑CNG plants</h3>
+              <p>
+                Design, engineering, and commissioning of compressed bio‑gas (CBG) and
+                bio‑CNG plants for agricultural, municipal, and industrial feedstocks.
+              </p>
+              <ul class="sg-card-list">
+                <li>Feedstock study &amp; feasibility</li>
+                <li>Plant layout &amp; process design</li>
+                <li>End‑to‑end installation &amp; training</li>
+              </ul>
+            </article>
+            <article class="sg-card">
+              <div class="sg-card-icon">🏢</div>
+              <h3>Hydrogen &amp; oxygen generation</h3>
+              <p>
+                Hydrogen and oxygen plants tailored to industrial, medical, and mobility use
+                cases with robust safety and control systems.
+              </p>
+              <ul class="sg-card-list">
+                <li>Process design &amp; sizing</li>
+                <li>On‑site generation &amp; storage</li>
+                <li>Compliance &amp; documentation support</li>
+              </ul>
+            </article>
+            <article class="sg-card">
+              <div class="sg-card-icon">🔋</div>
+              <h3>Nitrogen &amp; industrial gas plants</h3>
+              <p>
+                Nitrogen generation and related gas solutions for manufacturing, food,
+                healthcare, and specialty applications.
+              </p>
+              <ul class="sg-card-list">
+                <li>Turnkey plant supply &amp; commissioning</li>
+                <li>Retrofitting &amp; optimization of existing plants</li>
+                <li>Long‑term O&amp;M partnerships</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Highlight Banner -->
+      <section class="sg-highlight">
+        <div class="sg-container sg-highlight-inner">
+          <div>
+            <h2>Turn organic waste into reliable green fuel.</h2>
+            <p>
+              From feasibility study to commissioning, we help you convert biomass and
+              waste streams into CBG, bio‑gas, and valuable by‑products.
+            </p>
+          </div>
+          <a href="contact.html" class="sg-btn sg-btn--light">Book a free consultation</a>
+        </div>
+      </section>
+
+      <!-- Certifications Section -->
+      <section class="sg-section" id="certifications">
+        <div class="sg-container">
+          <div class="sg-section-heading">
+            <p class="sg-pill sg-pill--soft">Certifications &amp; Recognition</p>
+            <h2>Recognized by Government of India</h2>
+            <p>
+              SY Green Energy is a DIPP-recognized company, certified for excellence in 
+              green energy solutions and waste-to-energy projects.
+            </p>
+          </div>
+          <div class="sg-certificate-container">
+            <div class="sg-certificate-card">
+              <div class="sg-certificate-icon">🏆</div>
+              <h3>DIPP Recognition Certificate</h3>
+              <p>
+                SY Green Energy Private Limited is recognized by the Department for Promotion 
+                of Industry and Internal Trade (DIPP), Government of India, for our commitment 
+                to sustainable energy solutions.
+              </p>
+              <a 
+                href="https://sygreenenergy.com/images/DIPP211711_SY_GREEN_ENERGY_PRIVATE_LIMITED_RECOGNITION_220695748680318959.pdf" 
+                target="_blank" 
+                rel="noreferrer"
+                class="sg-btn sg-btn--light"
+              >
+                Download Certificate PDF
+              </a>
             </div>
-        </footer>
-    </div>
+          </div>
+        </div>
+      </section>
 
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
-    </script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-        (function () {
-            emailjs.init({
-                publicKey: "1saDp_-vkYfnBlkxo",
-            });
-        })();
-    </script>
-    <script src="js/main.js"></script>
+      <!-- About & Values -->
+      <section class="sg-section sg-section--split" id="about">
+        <div class="sg-container sg-section-split-inner">
+          <div>
+            <p class="sg-pill sg-pill--soft">About SY Green Energy</p>
+            <h2>Your Trusted Partner in Green Energy Solutions</h2>
+            <p>
+              SY Green Energy, established in 2022, is the leading manufacturer and project developer
+              for an exclusive range of domestic and commercial biogas plants, CBG plant, green hydrogen
+              plant, VPSA plant, bio-CNG plant, oxygen generation plants, nitrogen generation plants,
+              solar plants, waste-to-energy solutions, and organic fertilizers. Our company was
+              founded on the principle of delivering high-quality, "Nature Friendly" solutions that
+              benefit our clients and mother nature.
+            </p>
+            <p>
+              We have skilled engineering professionals who provide infrastructural facilities to
+              undertake all domestic, industrial, and commercial projects related to renewable energy.
+              We render consultancy for project preparation, feasibility studies, site visits, project
+              implementation, and awareness programs on waste management—a one-stop solution for all
+              waste-to-energy projects.
+            </p>
+            <div class="sg-values">
+              <div>
+                <h3>End‑to‑end execution</h3>
+                <p>From feasibility studies and detailed project reports to commissioning and training, we handle the complete project lifecycle with precision and care.</p>
+              </div>
+              <div>
+                <h3>Waste‑to‑energy expertise</h3>
+                <p>Strong expertise in converting organic waste streams into reliable green fuel and valuable organic fertilizers, reducing environmental impact.</p>
+              </div>
+              <div>
+                <h3>Specialized engineering team</h3>
+                <p>Skilled mechanical and process engineers with hands‑on experience across CBG, bio‑gas and industrial gas plants, ensuring optimal performance.</p>
+              </div>
+              <div>
+                <h3>One‑stop solutions</h3>
+                <p>We provide consultancy, manufacturing, installation, and maintenance services, making us your single point of contact for all green energy needs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="sg-stats-card">
+            <h3>Company at a Glance</h3>
+            <ul>
+              <li><span>Established:</span> 2022</li>
+              <li><span>Experience:</span> 6+ years in plant operations</li>
+              <li><span>Projects:</span> 7+ CBG &amp; bio‑gas plants</li>
+              <li><span>Offices:</span> 2 locations (Ahmedabad &amp; Gorakhpur)</li>
+              <li><span>Recognition:</span> DIPP-certified company</li>
+              <li><span>Focus:</span> Waste‑to‑energy &amp; green fuel</li>
+            </ul>
+            <div class="sg-glance-images">
+              <p class="sg-glance-images-label">CBG &amp; Bio-gas plant</p>
+              <div class="sg-glance-image-wrap">
+                <img src="images/cbg-plant-1.jpg" alt="CBG plant - SY Green Energy" class="sg-glance-img" onerror="this.src='https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&q=80'" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <!-- Why Choose Us Section -->
+      <section class="sg-section" id="why-choose-us">
+        <div class="sg-container">
+          <div class="sg-section-heading">
+            <p class="sg-pill sg-pill--soft">Why Choose Us</p>
+            <h2>What Sets SY Green Energy Apart</h2>
+            <p>
+              We combine technical expertise, proven track record, and commitment to 
+              sustainability to deliver exceptional results for our clients.
+            </p>
+          </div>
+          <div class="sg-grid sg-grid--3">
+            <article class="sg-card">
+              <div class="sg-card-icon">✅</div>
+              <h3>Proven Track Record</h3>
+              <p>
+                Successfully delivered multiple CBG and bio-gas projects across Uttar Pradesh 
+                and Gujarat, with plants ranging from 2.5 TPD to 12 TPD capacity.
+              </p>
+            </article>
+            <article class="sg-card">
+              <div class="sg-card-icon">🔧</div>
+              <h3>Complete Turnkey Solutions</h3>
+              <p>
+                From initial feasibility studies and site visits to plant manufacturing, 
+                installation, commissioning, and ongoing operations &amp; maintenance support.
+              </p>
+            </article>
+            <article class="sg-card">
+              <div class="sg-card-icon">🌱</div>
+              <h3>Environmental Commitment</h3>
+              <p>
+                Every project we undertake contributes to reducing carbon footprint and 
+                converting waste into valuable energy resources, supporting India's green 
+                energy goals.
+              </p>
+            </article>
+            <article class="sg-card">
+              <div class="sg-card-icon">👥</div>
+              <h3>Expert Team</h3>
+              <p>
+                Our multidisciplinary team includes mechanical engineers, process engineers, 
+                and project managers with extensive hands-on experience in green energy plants.
+              </p>
+            </article>
+            <article class="sg-card">
+              <div class="sg-card-icon">📋</div>
+              <h3>Comprehensive Services</h3>
+              <p>
+                We offer consultancy for project preparation, feasibility studies, awareness 
+                programs on waste management, and complete project implementation.
+              </p>
+            </article>
+            <article class="sg-card">
+              <div class="sg-card-icon">🏅</div>
+              <h3>Government Recognized</h3>
+              <p>
+                DIPP-recognized company, ensuring compliance with all regulatory requirements 
+                and maintaining the highest standards of quality and safety.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
 
-</body>
+      <!-- Client Reviews & Appreciation Letters Slider -->
+      <section class="sg-section sg-reviews" id="client-reviews">
+        <div class="sg-container">
+          <div class="sg-section-heading">
+            <p class="sg-pill sg-pill--soft">Client Reviews</p>
+            <h2>What Our Clients Say</h2>
+            <p>
+              Appreciation letters and feedback from our valued customers who have partnered with us
+              for CBG, bio-gas, and green energy solutions.
+            </p>
+          </div>
+          <div class="sg-reviews-slider">
+            <button type="button" class="sg-reviews-prev" aria-label="Previous review">‹</button>
+            <button type="button" class="sg-reviews-next" aria-label="Next review">›</button>
+            <div class="sg-reviews-track">
+              <article class="sg-review-slide sg-review-slide--active">
+                <div class="sg-review-content">
+                  <blockquote class="sg-review-quote">
+                    "SY Green Energy delivered our CBG plant on schedule with excellent technical support.
+                    Their team's expertise and commitment to quality made the entire project smooth and successful."
+                  </blockquote>
+                  <div class="sg-review-meta">
+                    <strong class="sg-review-name">5th Appreciation Letter</strong>
+                    <span class="sg-review-company">CBG / Bio-gas Project Client</span>
+                  </div>
+                    <a href="Appreciation letter/5th appreciation.pdf" target="_blank" rel="noreferrer" class="sg-review-letter-link">
+                    View appreciation letter (PDF)
+                  </a>
+                </div>
+                <div class="sg-review-letter">
+                  <a href="Appreciation letter/5th appreciation letter.jpg" target="_blank" rel="noreferrer" title="View appreciation letter">
+                    <img src="Appreciation letter/5th appreciation letter.jpg" alt="5th appreciation letter from client" />
+                    <span class="sg-review-letter-view">View PDF</span>
+                  </a>
+                </div>
+              </article>
+              <article class="sg-review-slide">
+                <div class="sg-review-content">
+                  <blockquote class="sg-review-quote">
+                    "Outstanding execution from feasibility to commissioning. We are pleased with the
+                    plant performance and the ongoing O&M support provided by SY Green Energy."
+                  </blockquote>
+                  <div class="sg-review-meta">
+                    <strong class="sg-review-name">Client Appreciation</strong>
+                    <span class="sg-review-company">November 2024</span>
+                  </div>
+                  <a href="Appreciation letter/Adobe Scan 29-Nov-2024.pdf" target="_blank" rel="noreferrer" class="sg-review-letter-link">
+                    View appreciation letter (PDF)
+                  </a>
+                </div>
+                <div class="sg-review-letter">
+                  <a href="Appreciation letter/Adobe Scan 29-Nov-2024_page-0001.jpg" target="_blank" rel="noreferrer" title="View appreciation letter">
+                    <img src="Appreciation letter/Adobe Scan 29-Nov-2024_page-0001.jpg" alt="Appreciation letter Nov 2024" />
+                    <span class="sg-review-letter-view">View PDF</span>
+                  </a>
+                </div>
+              </article>
+              <article class="sg-review-slide">
+                <div class="sg-review-content">
+                  <blockquote class="sg-review-quote">
+                    "Professional team, transparent communication, and a plant that meets all our
+                    expectations. We recommend SY Green Energy for any bio-gas or CBG project."
+                  </blockquote>
+                  <div class="sg-review-meta">
+                    <strong class="sg-review-name">Suraj Yadav</strong>
+                    <span class="sg-review-company">Appreciation Letter</span>
+                  </div>
+                  <a href="Appreciation letter/APPRECIATION LETTER SURAJ YADAV.pdf" target="_blank" rel="noreferrer" class="sg-review-letter-link">
+                    View appreciation letter (PDF)
+                  </a>
+                </div>
+                <div class="sg-review-letter">
+                  <a href="Appreciation letter/APPRECIATION LETTER SURAJ YADAV_page-0001.jpg" target="_blank" rel="noreferrer" title="View appreciation letter">
+                    <img src="Appreciation letter/APPRECIATION LETTER SURAJ YADAV_page-0001.jpg" alt="Appreciation letter - Suraj Yadav" />
+                    <span class="sg-review-letter-view">View PDF</span>
+                  </a>
+                </div>
+              </article>
+              <article class="sg-review-slide">
+                <div class="sg-review-content">
+                  <blockquote class="sg-review-quote">
+                    "Thank you for the successful commissioning and support. Our CBG plant is running well
+                    and we appreciate SY Green Energy's turnkey execution and after-sales support."
+                  </blockquote>
+                  <div class="sg-review-meta">
+                    <strong class="sg-review-name">SY BBG</strong>
+                    <span class="sg-review-company">Appreciation letter SY BBG (Bulandshahr Bio Gas)</span>
+                  </div>
+                  <a href="Appreciation letter/Appreciation letter SY BBG.pdf" target="_blank" rel="noreferrer" class="sg-review-letter-link">
+                    View appreciation letter (PDF)
+                  </a>
+                </div>
+                <div class="sg-review-letter">
+                  <a href="Appreciation letter/Appreciation letter SY BBG_page-0001.jpg" target="_blank" rel="noreferrer" title="View appreciation letter">
+                    <img src="Appreciation letter/Appreciation letter SY BBG_page-0001.jpg" alt="Appreciation letter SY BBG" />
+                    <span class="sg-review-letter-view">View PDF</span>
+                  </a>
+                </div>
+              </article>
+              <article class="sg-review-slide">
+                <div class="sg-review-content">
+                  <blockquote class="sg-review-quote">
+                    "We are satisfied with the project delivery and technical support. SY Green Energy
+                    has been a reliable partner for our green energy requirements."
+                  </blockquote>
+                  <div class="sg-review-meta">
+                    <strong class="sg-review-name">Letter Pad 05</strong>
+                    <span class="sg-review-company">Client Appreciation</span>
+                  </div>
+                  <a href="Appreciation letter/Letter Pad 05.pdf" target="_blank" rel="noreferrer" class="sg-review-letter-link">
+                    View appreciation letter (PDF)
+                  </a>
+                </div>
+                <div class="sg-review-letter">
+                  <a href="Appreciation letter/Letter Pad 05_page-0001.jpg" target="_blank" rel="noreferrer" title="View appreciation letter">
+                    <img src="Appreciation letter/Letter Pad 05_page-0001.jpg" alt="Letter Pad 05 appreciation letter" />
+                    <span class="sg-review-letter-view">View PDF</span>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="sg-reviews-dots" aria-label="Slide navigation"></div>
+          </div>
+        </div>
+      </section>
+    </main>
 
+    <footer class="sg-footer">
+      <div class="sg-container sg-footer-inner">
+        <div class="sg-footer-brand">
+          <div class="sg-logo">
+            <img src="images/logo.png" alt="SY Green Energy" class="sg-logo-img" onerror="this.style.display='none'; var t=this.parentElement.querySelectorAll('.sg-logo-mark,.sg-logo-text'); for(var i=0;i<t.length;i++) t[i].style.display='';" onload="var m=this.parentElement.querySelector('.sg-logo-mark'); if(m) m.style.display='none';">
+            <span class="sg-logo-mark">S</span>
+            <span class="sg-logo-text">SY Green<span>Energy</span></span>
+          </div>
+          <p>Clean power, engineered for real‑world performance.</p>
+        </div>
+        <div class="sg-footer-links">
+          <a href="index.html">Introduction</a>
+          <a href="projects.html">Projects</a>
+          <a href="about.html">About</a>
+          <a href="careers.html">Careers</a>
+          <a href="#certifications">Certifications</a>
+        </div>
+        <p class="sg-footer-meta">
+          © <span id="year"></span> SY Green Energy. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>

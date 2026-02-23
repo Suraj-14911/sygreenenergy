@@ -1,0 +1,17 @@
+{
+  "name": "sygreenenergy-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static front-end landing page for SyGreen Energy.",
+  "scripts": {
+    "start": "npx serve .",
+    "preview": "npx serve ."
+  },
+  "keywords": [
+    "sygreen",
+    "energy",
+    "solar",
+    "landing-page"
+  ]
+}
+

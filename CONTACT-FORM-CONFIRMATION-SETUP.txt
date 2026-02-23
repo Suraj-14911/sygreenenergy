@@ -1,0 +1,53 @@
+CONTACT FORM – EmailJS SETUP (form data + automatic reply to visitor)
+======================================================================
+
+1. SIGN UP
+   Go to https://www.emailjs.com/ and create a free account.
+
+2. ADD AN EMAIL SERVICE
+   - Dashboard → Email Services → Add New Service
+   - Choose your provider (Gmail, Outlook, etc.) and connect it
+   - Copy the SERVICE ID (e.g. service_xxxxx)
+
+3. CREATE TEMPLATE 1 – Enquiry to you
+   - Dashboard → Email Templates → Create New Template
+   - To Email: your address (e.g. info@sygreenenergy.com)
+   - Subject: e.g. New enquiry from {{from_name}}
+   - Body (use these variables exactly):
+     Name: {{from_name}}
+     Email: {{from_email}}
+     Phone: {{phone}}
+     Project type: {{project_type}}
+     Location: {{location}}
+     Capacity: {{capacity}}
+     Message: {{message}}
+   - Save and copy the TEMPLATE ID (e.g. template_xxxxx)
+
+4. CREATE TEMPLATE 2 – Auto-reply to visitor (confirmation)
+   - Email Templates → Create New Template
+   - To Email: {{to_email}}
+   - Subject: e.g. Thank you for contacting SY Green Energy
+   - Body: e.g.
+     Hi {{to_name}},
+     Thank you for your enquiry. We have received your message and will get back to you shortly.
+     Best regards,
+     SY Green Energy Team
+   - Save and copy this TEMPLATE ID (e.g. template_yyyyy)
+
+5. GET YOUR PUBLIC KEY
+   - Dashboard → Account → General → Public Key (or API Keys)
+   - Copy the Public Key
+
+6. PUT IDs INTO contact.html
+   Open contact.html and find the <form id="contactForm">. Replace:
+   - data-emailjs-service="YOUR_SERVICE_ID"     → your Service ID
+   - data-emailjs-template="YOUR_TEMPLATE_ID"   → Template 1 ID (enquiry to you)
+   - data-emailjs-template-reply="YOUR_TEMPLATE_ID_AUTO_REPLY" → Template 2 ID (confirmation)
+   - data-emailjs-public-key="YOUR_PUBLIC_KEY" → your Public Key
+
+7. (Optional) No auto-reply
+   If you don’t want the confirmation email, leave template-reply as YOUR_TEMPLATE_ID_AUTO_REPLY (or leave it empty). The code only sends the second email when this ID is set to a real template ID.
+
+Variable names used in script (must match your templates):
+- To you: from_name, from_email, phone, project_type, location, capacity, message
+- To visitor: to_email, to_name
