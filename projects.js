@@ -152,11 +152,11 @@ const projectData = {
     ]
   },
   surat: {
-    title: "Surat 5 TPD CBG Plant",
+    title: "Surat 7.5 TPD CBG Plant",
     location: "Surat, Gujarat",
     status: "Under Construction",
-    capacity: "5 TPD",
-    description: "5 TPD compressed bio‑gas plant under construction in Gujarat, focusing on industrial and municipal organic waste conversion.",
+    capacity: "7.5 TPD",
+    description: "7.5 TPD compressed bio‑gas plant under construction in Gujarat, focusing on industrial and municipal organic waste conversion.",
     videos: [
       {
         title: "Project Overview",
