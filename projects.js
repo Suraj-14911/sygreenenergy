@@ -161,6 +161,14 @@ const projectData = {
       {
         title: "Project Overview",
         src: "videos/project6/images/video.mp4",
+      },
+      {
+        title: "Project Overview",
+        src: "videos/project6/images/surat1.mp4",
+      },
+      {
+        title: "Project Overview",
+        src: "videos/project6/images/surat2.mp4",
       }
     ],
     images: [
