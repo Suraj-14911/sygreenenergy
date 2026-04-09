@@ -160,7 +160,7 @@ const projectData = {
     videos: [
       {
         title: "Project Overview",
-        src: "videos/project6/images/video.mp4",
+        src: "videos/project6/images/1.mp4",
       },
       {
         title: "Project Overview",
