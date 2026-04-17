@@ -65,7 +65,15 @@ const projectData = {
     videos: [
       {
         title: "Project Overview",
-        src: "videos/project3/images/video.mp4",
+        src: "videos/project3/images/video1.mp4",
+      },
+      {
+        title: "Project Overview",
+        src: "videos/project3/images/video2.mp4",
+      },
+      {
+        title: "Project Overview",
+        src: "videos/project3/images/video3.mp4",
       }
     ],
     images: [
@@ -90,7 +98,15 @@ const projectData = {
     videos: [
       {
         title: "Project Overview",
-        src: "videos/project4/images/video.mp4",
+        src: "videos/project4/images/1.mp4",
+      },
+      {
+        title: "Project Overview",
+        src: "videos/project4/images/2.mp4",
+      },
+      {
+        title: "Project Overview",
+        src: "videos/project4/images/3.mp4",
       }
     ],
     images: [
@@ -140,7 +156,15 @@ const projectData = {
     videos: [
       {
         title: "Project Overview",
-        src: "videos/project5/images/video.mp4",
+        src: "videos/project5/images/2.mp4",
+      },
+      {
+        title: "Project Overview",
+        src: "videos/project5/images/3.mp4",
+      },
+      {
+        title: "Project Overview",
+        src: "videos/project5/images/4.mp4",
       }
     ],
     images: [
