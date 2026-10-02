@@ -1,34 +1,22 @@
 // Project data with videos and images
 const projectData = {
-  bulandshahr: {
-    title: "Buland Bio Gas CBG Plant",
-    location: "Bulandshahr, UP",
-    status: "Completed",
+  Ghazipur: {
+    title: "Ghazipur, 3 TPD CBG Plant",
+    location: "Ghazipur, Uttarpradesh",
+    status: "Under Final Commissioning",
     capacity: "CBG Plant",
     description: "Compressed BioGas (CBG) project delivering green fuel from agricultural residues for local transport and industry. This facility processes organic waste into clean, compressed biogas suitable for vehicle fuel and industrial applications.",
     videos: [
       {
         title: "Plant Overview",
         src: "videos/project1/images/video.mp4",
-        thumbnail: "videos/thumbnails/bulandshahr-plant-overview.jpg"
+        thumbnail: "videos/thumbnails/Ghazipur-plant-overview.jpg"
       }
     ],
     images: [
       {
         title: "Plant Exterior",
-        src: "videos/project1/images/1.jpeg",
-      },
-      {
-        title: "Control Room",
-        src: "videos/project1/images/2.jpeg",
-      },
-      {
-        title: "Gas Compression Unit",
-        src: "videos/project1/images/3.jpeg",
-      },
-      {
-        title: "Feedstock Processing",
-        src: "videos/project1/images/4.jpeg",
+        src: "videos/project1/images/image.jpeg",
       }
     ]
   },
