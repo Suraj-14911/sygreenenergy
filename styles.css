@@ -1949,9 +1949,11 @@ a {
 
 .sg-video {
   display: block;
-  width: 100%;
-  height: auto;             /* keeps original aspect ratio */
-  max-height: 80vh;         /* stops it from getting too tall on big screens */
+  width: 112%;          /* makes video wider than the screen */
+  max-width: none;
+  margin-left: -6%;     /* shifts it left by half the extra, so both sides crop equally */
+  height: auto;
+  max-height: 80vh;
   object-fit: cover;
 }
 
