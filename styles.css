@@ -1937,3 +1937,31 @@ a {
     right: 0.5rem;
   }
 }
+
+/* adding video */
+/* Hero video below navbar */
+.sg-video-banner {
+  width: 100%;
+  background: #000;
+  line-height: 0;           /* removes small gap under the video */
+  overflow: hidden;
+}
+
+.sg-video {
+  display: block;
+  width: 100%;
+  height: auto;             /* keeps original aspect ratio */
+  max-height: 80vh;         /* stops it from getting too tall on big screens */
+  object-fit: cover;
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+  .sg-video { max-height: 60vh; }
+}
+
+/* Phones */
+@media (max-width: 600px) {
+  .sg-video { max-height: 45vh; }
+}
+/* adding video */
