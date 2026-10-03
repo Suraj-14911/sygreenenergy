@@ -146,3 +146,17 @@ if (yearSpan) {
   });
 })();
 
+
+const video = document.querySelector(".sg-video");
+
+if (video) {
+  video.addEventListener("ended", () => {
+    video.currentTime = 0;
+    video.play();
+  });
+
+  video.addEventListener("pause", () => {
+    video.play();
+  });
+}
+
